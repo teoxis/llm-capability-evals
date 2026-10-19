@@ -1,0 +1,73 @@
+{
+ "label": "05-gemma4-26b-advanced",
+ "model": "gemma4",
+ "url": "http://127.0.0.1:8080/v1",
+ "temp": 0.6,
+ "when": "2026-09-25 23:04",
+ "elapsed_s": 1007.6023397445679,
+ "score": 80.0,
+ "results": {
+  "advanced": [
+   {
+    "id": "regex_match",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 5, in <module>\n    assert regex_match('a.c', 'abc') and not regex_match('a.c', 'abcd')\n           ^^^^^^^^^^^\nNameError: name 'regex_match' is not defined\n"
+   },
+   {
+    "id": "justify",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "json_path",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 6, in <module>\n    assert json_path(d, 'a.b[2].c') == ['X']\n           ^^^^^^^^^\nNameError: name 'json_path' is not defined\n"
+   },
+   {
+    "id": "rana",
+    "ok": true,
+    "log": "28"
+   },
+   {
+    "id": "rectangulos",
+    "ok": true,
+    "log": "100"
+   },
+   {
+    "id": "reloj",
+    "ok": true,
+    "log": "7.5°"
+   },
+   {
+    "id": "condicional",
+    "ok": true,
+    "log": "3/4"
+   },
+   {
+    "id": "anagramas",
+    "ok": true,
+    "log": "60"
+   },
+   {
+    "id": "bug_entre_modulos",
+    "ok": true,
+    "steps": 11,
+    "log": ""
+   },
+   {
+    "id": "renombrar",
+    "ok": true,
+    "steps": 17,
+    "log": ""
+   }
+  ]
+ },
+ "stats": {
+  "calls": 36,
+  "gen_tokens": 21859,
+  "gen_s": 981.7810640000001,
+  "prompt_tokens": 3395,
+  "prompt_s": 18.681152,
+  "wall_s": 1007.2631413936615
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "label": "03-qwen3.6-35b-thinking-reasoning-code",
+ "model": "qwen36",
+ "url": "http://127.0.0.1:8080/v1",
+ "temp": 0.6,
+ "when": "2026-09-25 22:33",
+ "elapsed_s": 3647.218397140503,
+ "score": 82.14285714285714,
+ "results": {
+  "code": [
+   {
+    "id": "parse_duration",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "merge_intervals",
+    "ok": false,
+    "log": "  File \"<tmp>/sol.py\", line 3\n    valid = sorted((a, b) for a, b in iv if a < b, key=lambda x: x[0])\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nSyntaxError: Generator expression must be parenthesized\n"
+   },
+   {
+    "id": "calc",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 7, in <module>\n    assert close(calc('2*(3+4)-5/2'), 11.5)\n                 ^^^^\nNameError: name 'calc' is not defined\n"
+   },
+   {
+    "id": "top_words",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "business_days",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "topo_sort",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "lru",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "spiral",
+    "ok": true,
+    "log": ""
+   }
+  ],
+  "reasoning": [
+   {
+    "id": "tren",
+    "ok": true,
+    "log": "11:10"
+   },
+   {
+    "id": "divisibles",
+    "ok": true,
+    "log": "401"
+   },
+   {
+    "id": "caballeros",
+    "ok": true,
+    "log": "bribon"
+   },
+   {
+    "id": "dados",
+    "ok": true,
+    "log": "5/12"
+   },
+   {
+    "id": "letras",
+    "ok": true,
+    "log": "3"
+   },
+   {
+    "id": "modular",
+    "ok": true,
+    "log": "49"
+   },
+   {
+    "id": "edades",
+    "ok": true,
+    "log": "35"
+   },
+   {
+    "id": "planificacion",
+    "ok": true,
+    "log": "6 horas"
+   },
+   {
+    "id": "maquinas",
+    "ok": true,
+    "log": "5 minutos"
+   },
+   {
+    "id": "calendario",
+    "ok": false,
+    "log": ""
+   },
+   {
+    "id": "ceros",
+    "ok": true,
+    "log": "31"
+   },
+   {
+    "id": "monedas",
+    "ok": true,
+    "log": "3"
+   }
+  ]
+ },
+ "stats": {
+  "calls": 20,
+  "gen_tokens": 86539,
+  "gen_s": 3630.954318,
+  "prompt_tokens": 1654,
+  "prompt_s": 7.494789,
+  "wall_s": 3646.8885791301727
+ }
+}

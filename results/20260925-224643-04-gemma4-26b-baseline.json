@@ -1,0 +1,256 @@
+{
+ "label": "04-gemma4-26b-baseline",
+ "model": "gemma4",
+ "url": "http://127.0.0.1:8080/v1",
+ "temp": 0.6,
+ "when": "2026-09-25 22:46",
+ "elapsed_s": 779.1878461837769,
+ "score": 100.0,
+ "results": {
+  "code": [
+   {
+    "id": "parse_duration",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "merge_intervals",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "calc",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "top_words",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "business_days",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "topo_sort",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "lru",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "spiral",
+    "ok": true,
+    "log": ""
+   }
+  ],
+  "reasoning": [
+   {
+    "id": "tren",
+    "ok": true,
+    "log": "11:10"
+   },
+   {
+    "id": "divisibles",
+    "ok": true,
+    "log": "401"
+   },
+   {
+    "id": "caballeros",
+    "ok": true,
+    "log": "bribon"
+   },
+   {
+    "id": "dados",
+    "ok": true,
+    "log": "5/12"
+   },
+   {
+    "id": "letras",
+    "ok": true,
+    "log": "3"
+   },
+   {
+    "id": "modular",
+    "ok": true,
+    "log": "49"
+   },
+   {
+    "id": "edades",
+    "ok": true,
+    "log": "35"
+   },
+   {
+    "id": "planificacion",
+    "ok": true,
+    "log": "6"
+   },
+   {
+    "id": "maquinas",
+    "ok": true,
+    "log": "5 minutos"
+   },
+   {
+    "id": "calendario",
+    "ok": true,
+    "log": "domingo"
+   },
+   {
+    "id": "ceros",
+    "ok": true,
+    "log": "31"
+   },
+   {
+    "id": "monedas",
+    "ok": true,
+    "log": "3"
+   }
+  ],
+  "tools": [
+   {
+    "id": "tiempo_unidad",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "evento_lista",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "no_herramienta",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "paralelo",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "actualidad",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "email",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "usa_resultado",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "no_inventa_args",
+    "ok": true,
+    "log": ""
+   }
+  ],
+  "agentic": [
+   {
+    "id": "arreglar_tests",
+    "ok": true,
+    "steps": 9,
+    "log": ""
+   },
+   {
+    "id": "nueva_funcion",
+    "ok": true,
+    "steps": 8,
+    "log": ""
+   },
+   {
+    "id": "investigar",
+    "ok": true,
+    "steps": 7,
+    "log": ""
+   }
+  ],
+  "instructions": [
+   {
+    "id": "json_puro",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "tres_vinetas",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "sin_letra",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "traduccion",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "primos",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "mayusculas",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "palabra_final",
+    "ok": true,
+    "log": ""
+   }
+  ],
+  "honesty": [
+   {
+    "id": "paper_falso",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "dato_privado",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "version_local",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "persona_inventada",
+    "ok": true,
+    "log": ""
+   }
+  ],
+  "long_context": [
+   {
+    "id": "aguja",
+    "ok": true,
+    "log": "La contraseña temporal de staging es azul-pinguino-42."
+   },
+   {
+    "id": "salto_doble",
+    "ok": true,
+    "log": "La persona que dirige el proyecto Orion, Marta Iglesias, trabaja en la oficina de Valencia."
+   }
+  ]
+ },
+ "stats": {
+  "calls": 65,
+  "gen_tokens": 11556,
+  "gen_s": 552.3024089999998,
+  "prompt_tokens": 43027,
+  "prompt_s": 219.68155199999998,
+  "wall_s": 778.6347148418427
+ }
+}

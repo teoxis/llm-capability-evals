@@ -1,0 +1,115 @@
+{
+ "label": "09-qwen3.6-35b-spec-ngram-temp0.3-run2",
+ "model": "agente",
+ "url": "http://127.0.0.1:8080/v1",
+ "temp": 0.3,
+ "when": "2026-09-26 01:07",
+ "elapsed_s": 615.9834740161896,
+ "score": 89.0,
+ "results": {
+  "code": [
+   {
+    "id": "parse_duration",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "merge_intervals",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "calc",
+    "ok": false,
+    "log": "  File \"<tmp>/sol.py\", line 2\n    ```python\n    ^\nSyntaxError: invalid syntax\n"
+   },
+   {
+    "id": "top_words",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "business_days",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "topo_sort",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "lru",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "spiral",
+    "ok": true,
+    "log": ""
+   }
+  ],
+  "advanced": [
+   {
+    "id": "regex_match",
+    "ok": false,
+    "log": "  File \"<tmp>/sol.py\", line 2\n    ```python\n    ^\nSyntaxError: invalid syntax\n"
+   },
+   {
+    "id": "justify",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "json_path",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "rana",
+    "ok": true,
+    "log": "28"
+   },
+   {
+    "id": "rectangulos",
+    "ok": true,
+    "log": "100"
+   },
+   {
+    "id": "reloj",
+    "ok": true,
+    "log": "7.5"
+   },
+   {
+    "id": "condicional",
+    "ok": true,
+    "log": "3/4"
+   },
+   {
+    "id": "anagramas",
+    "ok": true,
+    "log": "60"
+   },
+   {
+    "id": "bug_entre_modulos",
+    "ok": true,
+    "steps": 9,
+    "log": ""
+   },
+   {
+    "id": "renombrar",
+    "ok": true,
+    "steps": 10,
+    "log": ""
+   }
+  ]
+ },
+ "stats": {
+  "calls": 35,
+  "gen_tokens": 16509,
+  "gen_s": 589.6552650000001,
+  "prompt_tokens": 3248,
+  "prompt_s": 13.759453000000004,
+  "wall_s": 615.1429135799408
+ }
+}

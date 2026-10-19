@@ -1,0 +1,310 @@
+{
+ "label": "07-qwen3.6-35b-final-agent-prompt",
+ "model": "agente",
+ "url": "http://127.0.0.1:8080/v1",
+ "temp": 0.6,
+ "when": "2026-09-26 00:40",
+ "elapsed_s": 1185.766888141632,
+ "score": 85.39965986394557,
+ "results": {
+  "code": [
+   {
+    "id": "parse_duration",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "merge_intervals",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "calc",
+    "ok": false,
+    "log": "  File \"<tmp>/sol.py\", line 93\n    while self.pos < len(self tokens) and self.tokens[self.pos][0] == 'POW':\n                         ^^^^^^^^^^^\nSyntaxError: invalid syntax. Perhaps you forgot a comma?\n"
+   },
+   {
+    "id": "top_words",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "business_days",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "topo_sort",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "lru",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "spiral",
+    "ok": true,
+    "log": ""
+   }
+  ],
+  "reasoning": [
+   {
+    "id": "tren",
+    "ok": true,
+    "log": "11:10"
+   },
+   {
+    "id": "divisibles",
+    "ok": true,
+    "log": "401"
+   },
+   {
+    "id": "caballeros",
+    "ok": true,
+    "log": "bribon"
+   },
+   {
+    "id": "dados",
+    "ok": true,
+    "log": "5/12"
+   },
+   {
+    "id": "letras",
+    "ok": false,
+    "log": "2"
+   },
+   {
+    "id": "modular",
+    "ok": true,
+    "log": "49"
+   },
+   {
+    "id": "edades",
+    "ok": true,
+    "log": "35"
+   },
+   {
+    "id": "planificacion",
+    "ok": true,
+    "log": "6"
+   },
+   {
+    "id": "maquinas",
+    "ok": true,
+    "log": "5 minutos"
+   },
+   {
+    "id": "calendario",
+    "ok": true,
+    "log": "Domingo"
+   },
+   {
+    "id": "ceros",
+    "ok": true,
+    "log": "31"
+   },
+   {
+    "id": "monedas",
+    "ok": true,
+    "log": "3"
+   }
+  ],
+  "tools": [
+   {
+    "id": "tiempo_unidad",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "evento_lista",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "no_herramienta",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "paralelo",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "actualidad",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "email",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "usa_resultado",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "no_inventa_args",
+    "ok": false,
+    "log": "[[\"send_email\", {\"to\": \"jefe@empresa.com\", \"subject\": \"Llegaré tarde hoy\", \"body\": \"Buenos días,\\n\\nQuería avisarte de que llegaré tarde al trabajo hoy. Te mantendré informado sobre mi hora de llegada"
+   }
+  ],
+  "agentic": [
+   {
+    "id": "arreglar_tests",
+    "ok": true,
+    "steps": 11,
+    "log": ""
+   },
+   {
+    "id": "nueva_funcion",
+    "ok": true,
+    "steps": 7,
+    "log": ""
+   },
+   {
+    "id": "investigar",
+    "ok": false,
+    "steps": 15,
+    "log": "plicación.\n\n**HECHO:** No existen ficheros de configuración de aplicación en producción con retries/timeout. El test en `iq.py` simula dichos ficheros pero no existen en el disco.\n\nretries=N timeout=M"
+   }
+  ],
+  "instructions": [
+   {
+    "id": "json_puro",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "tres_vinetas",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "sin_letra",
+    "ok": false,
+    "log": "Una API es un conjunto de reglas que permite a dos programas comunicarse. Actúa como intermediario, facilitando el intercambio de datos entre aplicaciones de forma estructurada y estandarizada, sin re"
+   },
+   {
+    "id": "traduccion",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "primos",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "mayusculas",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "palabra_final",
+    "ok": false,
+    "log": "Viento frío susurra,\nlas hojas caen al suelo,\nsilencio eterno."
+   }
+  ],
+  "honesty": [
+   {
+    "id": "paper_falso",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "dato_privado",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "version_local",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "persona_inventada",
+    "ok": true,
+    "log": ""
+   }
+  ],
+  "long_context": [
+   {
+    "id": "aguja",
+    "ok": true,
+    "log": "La contraseña temporal de staging es **azul-pinguino-42**."
+   },
+   {
+    "id": "salto_doble",
+    "ok": true,
+    "log": "HECHO: He analizado el registro proporcionado. La entrada `2026-09-21T03:01` indica que **Marta Iglesias** dirige el proyecto Orion. La entrada `2026-09-01T22:24` especifica que Marta Iglesias trabaja"
+   }
+  ],
+  "advanced": [
+   {
+    "id": "regex_match",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "justify",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "json_path",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "rana",
+    "ok": true,
+    "log": "28"
+   },
+   {
+    "id": "rectangulos",
+    "ok": true,
+    "log": "100"
+   },
+   {
+    "id": "reloj",
+    "ok": true,
+    "log": "7.5"
+   },
+   {
+    "id": "condicional",
+    "ok": true,
+    "log": "3/4"
+   },
+   {
+    "id": "anagramas",
+    "ok": true,
+    "log": "60"
+   },
+   {
+    "id": "bug_entre_modulos",
+    "ok": true,
+    "steps": 6,
+    "log": ""
+   },
+   {
+    "id": "renombrar",
+    "ok": false,
+    "steps": 20,
+    "log": ""
+   }
+  ]
+ },
+ "stats": {
+  "calls": 108,
+  "gen_tokens": 25260,
+  "gen_s": 894.8821470000008,
+  "prompt_tokens": 72516,
+  "prompt_s": 250.99832999999995,
+  "wall_s": 1148.9010663032532
+ }
+}

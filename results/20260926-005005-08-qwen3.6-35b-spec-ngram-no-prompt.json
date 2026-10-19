@@ -1,0 +1,135 @@
+{
+ "label": "08-qwen3.6-35b-spec-ngram-no-prompt",
+ "model": "agente",
+ "url": "http://127.0.0.1:8080/v1",
+ "temp": 0.6,
+ "when": "2026-09-26 00:50",
+ "elapsed_s": 482.3797028064728,
+ "score": 90.0,
+ "results": {
+  "code": [
+   {
+    "id": "parse_duration",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 46, in <module>\n    assert parse_duration('1h30m15s') == 5415\n           ~~~~~~~~~~~~~~^^^^^^^^^^^^\n  File \"<tmp>/sol.py\", line 10, in parse_duration\n    raise ValueError(\"Invalid format\")\nValueError: Invalid format\n"
+   },
+   {
+    "id": "merge_intervals",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 28, in <module>\n    assert merge_intervals([(1,3),(3,5)]) == [(1,5)]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+   },
+   {
+    "id": "calc",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 161, in <module>\n    assert close(calc('-2^2'), -4)\n           ~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+   },
+   {
+    "id": "top_words",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "business_days",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "topo_sort",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "lru",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "spiral",
+    "ok": true,
+    "log": ""
+   }
+  ],
+  "agentic": [
+   {
+    "id": "arreglar_tests",
+    "ok": true,
+    "steps": 6,
+    "log": ""
+   },
+   {
+    "id": "nueva_funcion",
+    "ok": true,
+    "steps": 6,
+    "log": ""
+   },
+   {
+    "id": "investigar",
+    "ok": true,
+    "steps": 5,
+    "log": ""
+   }
+  ],
+  "advanced": [
+   {
+    "id": "regex_match",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "justify",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "json_path",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "rana",
+    "ok": true,
+    "log": "28"
+   },
+   {
+    "id": "rectangulos",
+    "ok": true,
+    "log": "100"
+   },
+   {
+    "id": "reloj",
+    "ok": true,
+    "log": "7.5"
+   },
+   {
+    "id": "condicional",
+    "ok": true,
+    "log": "3/4"
+   },
+   {
+    "id": "anagramas",
+    "ok": true,
+    "log": "60"
+   },
+   {
+    "id": "bug_entre_modulos",
+    "ok": true,
+    "steps": 11,
+    "log": ""
+   },
+   {
+    "id": "renombrar",
+    "ok": true,
+    "steps": 9,
+    "log": ""
+   }
+  ]
+ },
+ "stats": {
+  "calls": 53,
+  "gen_tokens": 12510,
+  "gen_s": 455.534686,
+  "prompt_tokens": 5027,
+  "prompt_s": 19.110469000000005,
+  "wall_s": 481.13872957229614
+ }
+}

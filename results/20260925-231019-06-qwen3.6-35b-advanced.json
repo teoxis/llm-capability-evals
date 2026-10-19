@@ -1,0 +1,73 @@
+{
+ "label": "06-qwen3.6-35b-advanced",
+ "model": "qwen36",
+ "url": "http://127.0.0.1:8080/v1",
+ "temp": 0.6,
+ "when": "2026-09-25 23:10",
+ "elapsed_s": 295.29413294792175,
+ "score": 80.0,
+ "results": {
+  "advanced": [
+   {
+    "id": "regex_match",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 55, in <module>\n    assert regex_match('colou?r', 'color') and regex_match('colou?r', 'colour') and not regex_match('colou?r', 'colouur')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+   },
+   {
+    "id": "justify",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "json_path",
+    "ok": false,
+    "log": "raceback (most recent call last):\n  File \"<tmp>/sol.py\", line 122, in <module>\n    assert json_path([[1, 2], [3]], '[*][0]') == [1, 3]\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<tmp>/sol.py\", line 88, in json_path\n    parsed_path = _parse_path(path)\n  File \"<tmp>/sol.py\", line 41, in _parse_path\n    result.append(int(index_str))\n                  ~~~^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '*][0'\n"
+   },
+   {
+    "id": "rana",
+    "ok": true,
+    "log": "28"
+   },
+   {
+    "id": "rectangulos",
+    "ok": true,
+    "log": "100"
+   },
+   {
+    "id": "reloj",
+    "ok": true,
+    "log": "7.5"
+   },
+   {
+    "id": "condicional",
+    "ok": true,
+    "log": "3/4"
+   },
+   {
+    "id": "anagramas",
+    "ok": true,
+    "log": "60"
+   },
+   {
+    "id": "bug_entre_modulos",
+    "ok": true,
+    "steps": 11,
+    "log": ""
+   },
+   {
+    "id": "renombrar",
+    "ok": true,
+    "steps": 11,
+    "log": ""
+   }
+  ]
+ },
+ "stats": {
+  "calls": 30,
+  "gen_tokens": 7002,
+  "gen_s": 280.492169,
+  "prompt_tokens": 3171,
+  "prompt_s": 13.276692,
+  "wall_s": 294.91979217529297
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "label": "09-qwen3.6-35b-spec-ngram-temp0.3-run1",
+ "model": "agente",
+ "url": "http://127.0.0.1:8080/v1",
+ "temp": 0.3,
+ "when": "2026-09-26 00:57",
+ "elapsed_s": 401.5715730190277,
+ "score": 72.0,
+ "results": {
+  "code": [
+   {
+    "id": "parse_duration",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "merge_intervals",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 35, in <module>\n    assert merge_intervals([(1,3),(3,5)]) == [(1,5)]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+   },
+   {
+    "id": "calc",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 163, in <module>\n    assert close(calc('-2^2'), -4)\n           ~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+   },
+   {
+    "id": "top_words",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "business_days",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "topo_sort",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "lru",
+    "ok": true,
+    "log": ""
+   },
+   {
+    "id": "spiral",
+    "ok": true,
+    "log": ""
+   }
+  ],
+  "advanced": [
+   {
+    "id": "regex_match",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 71, in <module>\n    assert regex_match('x.+y?z', 'xaaz') and not regex_match('', 'a') and regex_match('', '')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+   },
+   {
+    "id": "justify",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 56, in <module>\n    assert justify(['What','must','be','acknowledgment','shall','be'], 16) == ['What   must   be', 'acknowledgment  ', 'shall be        ']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+   },
+   {
+    "id": "json_path",
+    "ok": false,
+    "log": "Traceback (most recent call last):\n  File \"<tmp>/sol.py\", line 119, in <module>\n    assert json_path(d, 'items[*].id') == [1, 2]\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"<tmp>/sol.py\", line 64, in json_path\n    elif match.group(4) is not None:\n         ~~~~~~~~~~~^^^\nIndexError: no such group\n"
+   },
+   {
+    "id": "rana",
+    "ok": true,
+    "log": "28"
+   },
+   {
+    "id": "rectangulos",
+    "ok": true,
+    "log": "100"
+   },
+   {
+    "id": "reloj",
+    "ok": true,
+    "log": "7.5"
+   },
+   {
+    "id": "condicional",
+    "ok": true,
+    "log": "3/4"
+   },
+   {
+    "id": "anagramas",
+    "ok": true,
+    "log": "60"
+   },
+   {
+    "id": "bug_entre_modulos",
+    "ok": true,
+    "steps": 10,
+    "log": ""
+   },
+   {
+    "id": "renombrar",
+    "ok": true,
+    "steps": 10,
+    "log": ""
+   }
+  ]
+ },
+ "stats": {
+  "calls": 36,
+  "gen_tokens": 10635,
+  "gen_s": 375.55619900000005,
+  "prompt_tokens": 2843,
+  "prompt_s": 15.584521000000004,
+  "wall_s": 400.67861771583557
+ }
+}
